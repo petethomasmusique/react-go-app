@@ -1,0 +1,48 @@
+.game-board {
+	min-width: 1000px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  height: 34px;
+  width: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+}
+
+button div {
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	border: 1px solid black;
+	display: none;
+}
+
+div.black {
+	background-color: black;
+	display: block;
+}
+
+div.white {
+	background-color: #FAF0E6;
+	display: block;
+}
